@@ -2,6 +2,12 @@ import 'dart:io';
 
 main() {
 
+  List<String> array = ['Octávio', 'Maria', 'João'];
+  array.add('Pedro');
+  print(array);
+  array.removeAt(2);
+  print(array);
+
   // Adicionando nomes em um array Dart.
   var nomes = [];
   bool condicao = true;
